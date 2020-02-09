@@ -19,13 +19,13 @@
 	top: 44vh;
 	right: 15vw;
 	letter-spacing: 0.4em;
-	min-width: 53vw;
+	min-width: 50vw;
 }
 
 #accueil hr{
 	background-color: rgba(25, 23, 22, 1);
 	border: none;
-	width: 53vw;
+	width: 50vw;
 	height: 2px;
 	position: absolute;
 	top: 49.1vh;
@@ -40,7 +40,7 @@
 	font-weight: 700;
 	top: 52vh;
 	right: 15vw;
-	min-width: 53vw;
+	min-width: 50vw;
 }
 
 #accueil a {
