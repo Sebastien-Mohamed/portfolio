@@ -1,0 +1,37 @@
+/* 
+FONTS
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+COLORS
+yellow #F5CB5C
+black #242423
+*/
+
+#home {
+	background-color: #F5CB5C;
+	background-image: url(https://raw.githubusercontent.com/Sebastien-Mohamed/portfolio/master/images/fond.png);
+	background-size: 100%;
+	overflow: hidden;
+	color: #242423;
+}
+
+#home #intro {
+	display: inline-block;
+	width: 30vw;
+	margin: calc(80px + 30vh) 15vw auto;
+	margin-bottom: 0px;
+}
+
+#home h1 {
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 6em;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+#home p {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.8em;
+	line-height: 1.2em;
+}

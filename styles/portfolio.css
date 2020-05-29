@@ -1,0 +1,175 @@
+/* 
+FONTS
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+COLORS
+yellow #F5CB5C
+black #242423
+*/
+
+#portfolio {
+	background-color: white;
+	color: #242423;
+	display: flex;
+}
+
+#portfolio #projects {
+	display: inline-block;
+	width: 70vw;
+	margin: calc(80px + 10vh) 15vw auto 15vw;
+}
+
+#portfolio #project1 {
+	background-color: #F5CB5C;
+	width: 35vw;
+	height: 20vh;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#portfolio #project1 figcaption {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	width: 35vw;
+	height: 20vh;
+	margin-top: 8.5vh;
+	position: relative;
+	top: 0px;
+	transition: top 0.4s ease-out;
+}
+
+#portfolio #project1:hover figcaption {
+	color: #242423;
+	position: relative;
+	top: -20vh;
+	transition: top 0.4s ease-out;
+}
+
+#portfolio #project1 figure img {
+	width: 35vw;
+	height: 20vh;
+	position: relative;
+	top: 0px;
+	transition: top 0.4s ease-out;
+}
+
+#portfolio #project1 figure:hover img {
+	position: relative;
+	transition: top 0.4s ease-out;
+	top: -20vh;
+}
+
+#portfolio #project2 {
+	background-color: #F5CB5C;
+	width: 35vw;
+	height: 20vh;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#portfolio #project2 figcaption {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	color: #242423;
+	width: 35vw;
+	height: 20vh;
+	margin-top: 8.5vh;
+	position: relative;
+	top: 0px;
+	transition: top 0.4s ease-out;
+}
+
+#portfolio #project2:hover figcaption {
+	color: #242423;
+	position: relative;
+	top: -20vh;
+	transition: top 0.4s ease-out;
+}
+
+#portfolio #project2 figure img {
+	width: 35vw;
+	height: 20vh;
+	position: relative;
+	top: 0px;
+	transition: top 0.4s ease-out;
+}
+
+#portfolio #project2 figure:hover img {
+	position: relative;
+	transition: top 0.4s ease-out;
+	top: -20vh;
+}
+
+#portfolio #project3 {
+	background-color: #F5CB5C;
+	width: 35vw;
+	height: 20vh;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#portfolio #project3 figcaption {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	color: #242423;
+	width: 35vw;
+	height: 20vh;
+	margin-top: 8.5vh;
+	position: relative;
+	top: 0px;
+	transition: top 0.4s ease-out;
+}
+
+#portfolio #project3:hover figcaption {
+	color: #242423;
+	position: relative;
+	top: -20vh;
+	transition: top 0.4s ease-out;
+}
+
+#portfolio #project3 figure img {
+	width: 35vw;
+	height: 20vh;
+	position: relative;
+	top: 0px;
+	transition: top 0.4s ease-out;
+}
+
+#portfolio #project3 figure:hover img {
+	position: relative;
+	transition: top 0.4s ease-out;
+	top: -20vh;
+}
+
+#portfolio #book {
+	background-color: #F5CB5C;
+	display: inline-block;
+	width: 35vw;
+	height: calc(60vh + 30px);
+	margin-right: 15vw;
+	margin-top: calc(80px + 10vh);
+}
+
+#portfolio #book h1 {
+	position: relative;
+	top: 47%;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+}
+
+#portfolio #book a {
+	text-decoration: none;
+	color: #242423;
+	opacity: 0.5;
+	transition: opacity 0.5s ease;
+}
+
+#portfolio #book h1:hover a {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+	text-decoration: overline;
+}

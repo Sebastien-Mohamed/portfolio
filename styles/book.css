@@ -1,0 +1,20 @@
+/* 
+FONTS
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+COLORS
+yellow #F5CB5C
+black #242423
+*/
+
+#book {
+	background-color: #F5CB5C;
+	overflow: hidden;
+}
+
+#book embed {
+	margin: calc(80px + 10vh) 15vw auto 15vw;
+	margin-left: 15vw;
+	width: 70vw;
+	height: 70vh;
+}

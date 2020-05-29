@@ -1,0 +1,41 @@
+/* 
+FONTS
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+COLORS
+yellow #F5CB5C
+black #242423
+*/
+
+#contact {
+	font-family: 'Quicksand', sans-serif;
+	background-color: white;
+	color: #242423;
+}
+
+#contact #mail {
+	background-color: #F5CB5C;
+	height: 20vh;
+	position: relative;
+	top: calc(80px + 30%);
+	margin: auto;
+}
+
+#contact h1 {
+	position: relative;
+	top: 8vh;
+	text-align: center;
+	font-size: 2em;
+}
+
+#contact a {
+	color: #242423;
+	text-decoration: none;
+	opacity: 0.5;
+	transition: opacity 0.5s ease;
+}
+
+#contact a:hover {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
