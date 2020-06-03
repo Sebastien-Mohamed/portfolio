@@ -16,7 +16,8 @@ black #242423
 }
 
 #home #intro {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 	width: 30vw;
 	margin: calc(80px + 30vh) 15vw auto;
 	margin-bottom: 0px;
